@@ -58,11 +58,12 @@ body {
 
 .header .countdown div {
     text-align: center;
-    border: 2px solid rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(1, 121, 158, 0.8);
     border-radius: 8px;
     margin: 10px 10px;
     width: 100px;
     padding: 15px 0;
+    color: brown;
 }
 
 @media (max-width : 575px){
@@ -70,6 +71,7 @@ body {
     margin: 10px 8px;
     width: 70px;
     padding: 10px 0;
+    color: brown;
 }
 }
 
