@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +10,33 @@
     
 </head>
 <body>
+
+
+      <!-- Header -->
+      <header class="header text-gray dark-text-white">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="fw-bold mb-4"><span class="text-primary"> ❤️🤭 </span> <span id="text"></span></h2>
+                <p class="lh-lg"> وای خیلی دیگه مونده 😭😭
+                   </p>
+            </div>
+        </div>
+    </header>
+
      
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js
     " ></script>
+
+    
+    <script src="https://unpkg.com/ityped@1.0.3"></script>
+    <script>
+        const textElement = document.querySelector('#text');
+        ityped.init(textElement, { strings: [  'یک گل که بیشتر نداریم '  ,  'گل دختر '] });
+    </script>
+
+
+
+
 </body>
 </html>
